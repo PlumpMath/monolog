@@ -5,6 +5,9 @@ Trying to bring down Arcadia's boot time
 
 ---
 
+### Sat Dec 24 2016 12:51
+The current trajectory is to backport the parts of modern mono that enable 64bit AOTing to mono 2.6.
+
 ### Sat Dec 24 2016 11:39
 [Nostrand](https://github.com/nasser/nostrand) is able to boot very fast by AOTing all of its assemblies to `.dylib` files on OSX. This skips initial JIT time, which is significant.
 
